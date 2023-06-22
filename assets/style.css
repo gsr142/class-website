@@ -2,25 +2,27 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 header {
-    background-color:rgb(255, 255, 255);
-    color:rgb(12, 12, 12);
+    position: fixed;
+    background-color:lightgoldenrodyellow;
     display: inline-block;
     width: 100%;
-
+    
 }
 
-header h1 {
-    width: 50%
-}
+
 
 header nav ul {
-    display: inline;
-    float: right;
+    display: inline-flex;
     
+    
+}
+header nav ul li {
+    margin:0px 25px 0px 25px;
 }
 
 ul {
     text-align: center;
+    
 }
 
 li {
@@ -35,6 +37,7 @@ body {
 }
 
 footer{
+    margin-top: 150px;
     text-align: center;
 }
 
