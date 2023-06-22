@@ -1,0 +1,52 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header {
+    background-color:rgb(255, 255, 255);
+    color:rgb(12, 12, 12);
+    display: inline-block;
+    width: 100%;
+
+}
+
+header h1 {
+    width: 50%
+}
+
+header nav ul {
+    display: inline;
+    float: right;
+    
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    display: inline;
+    text-align: right;
+    color:aliceblue
+}
+
+
+body {
+    background-color: aqua;
+}
+
+footer{
+    text-align: center;
+}
+
+.phonebook {
+    text-align: center;
+    font-size: 24px;
+}
+
+.contact-form {
+    margin:auto;
+}
+
+.contact-form ul li {
+    color:black
+}
